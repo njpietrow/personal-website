@@ -2055,7 +2055,7 @@ input, select, textarea {
 			display: block;
 			height: 100%;
 			left: 0;
-			opacity: 0.5;
+			opacity: 0.2;
 			position: absolute;
 			top: 0;
 			width: 100%;
@@ -2564,12 +2564,27 @@ input, select, textarea {
 		.work-item h3 {
 			font-size: 1em;
 			margin: 0 0 0.5em 0;
+			display: flex;
+			justify-content: space-between;
 		}
-
+		
 		.work-item p {
 			font-size: 0.8em;
 			line-height: 1.5em;
 			margin: 0;
+		}
+
+		
+		#hide{
+			display: none;
+		}
+		
+		.flex{
+			display: flex;
+			justify-content: space-between;
+		}
+		.flex span{
+			font-size: .8em;
 		}
 
 /* Header */
@@ -2596,7 +2611,7 @@ input, select, textarea {
 		background-image: url("images/overlay.png"), url("../../images/bg.jpg");
 		background-position: top left,							top left;
 		background-repeat: repeat,								no-repeat;
-		background-size: auto,								150%;
+		background-size: auto,								800%;
 		color: rgba(255, 255, 255, 0.5);
 		height: 100%;
 		left: 0;
