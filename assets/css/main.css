@@ -111,13 +111,13 @@ input, select, textarea {
 		-ms-transition: color 0.2s ease-in-out, border-color 0.2s ease-in-out;
 		transition: color 0.2s ease-in-out, border-color 0.2s ease-in-out;
 		border-bottom: dotted 1px;
-		color: #49bf9d;
+		color: #3bbaec;
 		text-decoration: none;
 	}
 
 		a:hover {
 			border-bottom-color: transparent;
-			color: #49bf9d !important;
+			color: #3bbaec !important;
 			text-decoration: none;
 		}
 
@@ -152,7 +152,7 @@ input, select, textarea {
 	}
 
 	h2 {
-		font-size: 1.5em;
+		font-size: 2em;
 		line-height: 1.5em;
 	}
 
@@ -1841,7 +1841,7 @@ input, select, textarea {
 		input[type="email"]:focus,
 		select:focus,
 		textarea:focus {
-			border-color: #49bf9d;
+			border-color: #3bbaec;
 		}
 
 	select {
@@ -1946,7 +1946,7 @@ input, select, textarea {
 
 		input[type="checkbox"]:focus + label:before,
 		input[type="radio"]:focus + label:before {
-			border-color: #49bf9d;
+			border-color: #3bbaec;
 		}
 
 	input[type="checkbox"] + label:before {
@@ -2464,8 +2464,8 @@ input, select, textarea {
 		input[type="reset"]:hover,
 		input[type="button"]:hover,
 		.button:hover {
-			border-color: #49bf9d;
-			color: #49bf9d !important;
+			border-color: #3bbaec;
+			color: #3bbaec !important;
 		}
 
 		input[type="submit"]:active,
@@ -2473,8 +2473,8 @@ input, select, textarea {
 		input[type="button"]:active,
 		.button:active {
 			background-color: rgba(73, 191, 157, 0.1);
-			border-color: #49bf9d;
-			color: #49bf9d !important;
+			border-color: #3bbaec;
+			color: #3bbaec !important;
 		}
 
 		input[type="submit"].icon,
@@ -2517,8 +2517,8 @@ input, select, textarea {
 		input[type="reset"].primary,
 		input[type="button"].primary,
 		.button.primary {
-			background-color: #49bf9d;
-			border-color: #49bf9d;
+			background-color: #3bbaec;
+			border-color: #3bbaec;
 			color: #ffffff !important;
 		}
 
@@ -2526,16 +2526,16 @@ input, select, textarea {
 			input[type="reset"].primary:hover,
 			input[type="button"].primary:hover,
 			.button.primary:hover {
-				background-color: #5cc6a7;
-				border-color: #5cc6a7;
+				background-color: #2f9dc9;
+				border-color: #2f9dc9;
 			}
 
 			input[type="submit"].primary:active,
 			input[type="reset"].primary:active,
 			input[type="button"].primary:active,
 			.button.primary:active {
-				background-color: #3eb08f;
-				border-color: #3eb08f;
+				background-color: #3bbaec;
+				border-color: #3bbaec;
 			}
 
 		input[type="submit"].disabled, input[type="submit"]:disabled,
@@ -2706,7 +2706,7 @@ input, select, textarea {
 		#main > section {
 			border-top: solid 2px #efefef;
 			margin: 4em 0 0 0;
-			padding: 4em 0 0 0;
+			padding: 2em 0 0 0;
 		}
 
 			#main > section:first-child {
@@ -3234,3 +3234,21 @@ input, select, textarea {
 			}
 
 	}
+
+.skill-icons{
+	display: grid;
+	grid-template-columns: repeat(5, 1fr);
+	margin-bottom: 32px;
+}
+
+.skill-icons div{
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	aspect-ratio: 1/1;
+}
+
+.skill-icons img{
+	width: 60%;
+	height: 60%;
+}
