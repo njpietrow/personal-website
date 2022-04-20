@@ -3252,3 +3252,28 @@ input, select, textarea {
 	width: 60%;
 	height: 60%;
 }
+
+#three img {
+	height: 40px;
+}
+
+#three ul{
+	padding-left: 0;
+}
+
+#three li {
+	display: flex;
+	align-items: center;
+}
+
+#cta ul, #cta li{
+	list-style: none;
+	padding-left: 0;
+}
+
+#cta i{
+	margin-right: 1em;
+	width: 1em;
+	font-size: 1.2em;
+	text-align: center;
+}
