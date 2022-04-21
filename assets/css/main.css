@@ -2614,12 +2614,13 @@ input, select, textarea {
 		-webkit-justify-content: space-between;
 		-ms-justify-content: space-between;
 		justify-content: space-between;
-		background-color: #1f1815;
+		background-color: #6266fb;
 		background-attachment: scroll,								scroll;
 		background-image: url("images/overlay.png"), url("../../images/bg2.jpg");
+		background-size: cover,     cover;                      /* <------ */
 		background-position: top left,							top left;
 		background-repeat: repeat,								no-repeat;
-		background-size: auto,								550%;
+		background-size: auto,								500%;
 		color: rgba(255, 255, 255, 0.5);
 		height: 100%;
 		left: 0;
