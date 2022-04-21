@@ -2614,7 +2614,7 @@ input, select, textarea {
 		-webkit-justify-content: space-between;
 		-ms-justify-content: space-between;
 		justify-content: space-between;
-		background-color: #6266fb;
+		background-color: #101a0e;
 		background-attachment: scroll,								scroll;
 		background-image: url("images/overlay.png"), url("../../images/bg2.jpg");
 		background-size: cover,     cover;                      /* <------ */
