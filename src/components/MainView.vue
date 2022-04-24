@@ -4,7 +4,7 @@
       <div class="sider sidebar">
         <div class="holder">
           <div class="xx" role="navigation" aria-labelledby="main-nav-heading">
-            <div class="title"></div>
+            <div></div>
             <a class="listitem" href="#intro">Intro</a>
             <a class="listitem" href="#about">About Me</a>
             <a class="listitem" href="#projects">Projects</a>
@@ -31,7 +31,7 @@
               interesting problems.
             </h1>
             <br />
-            <a href="#Intro">About Me <Fa fa="arrow-down" /></a>
+            <a href="#about">About Me <Fa fa="arrow-down" /></a>
           </div>
         </section>
         <section id="about" aria-labelledby="intro-heading">
@@ -524,7 +524,7 @@ export default {
   }
 }
 section {
-  padding: 6rem 0rem;
+  padding-bottom: 12rem;
   &:empty {
     display: none;
   }
@@ -771,6 +771,7 @@ div > .main {
   margin: 0.2rem 0;
   line-height: 1.3;
   max-width: 600px;
+  margin-block-start: 0;
 }
 .main-view {
   transition: background 0.3s;

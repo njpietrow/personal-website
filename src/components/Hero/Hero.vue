@@ -11,11 +11,12 @@ export default {};
 <style lang="scss" scoped>
 .main {
   width: 100%;
-  height: auto;
+  height: 30vh;
   display: flex;
   justify-content: center;
   align-items: center;
 }
+
 .txt {
   // max-width: 250px;
   h1 {
