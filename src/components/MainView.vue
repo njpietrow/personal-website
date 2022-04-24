@@ -10,13 +10,12 @@
             <a class="listitem" href="#projects">Projects</a>
             <a class="listitem" href="#education">Education</a>
             <a class="listitem" href="#experience">Experience</a>
-            <a class="listitem" href="#contact">Get in Touch</a>
+            <a class="listitem" href="#contact">Contact</a>
             <br />
             <div class="contact">
               <a target="_blank" href="mailto:njpietrow@gmail.com"
                 >njpietrow@gmail.com</a
               >
-              <br />
               <a target="_blank" href="Resume_NickPietrow.pdf">Resume</a>
             </div>
           </div>
@@ -98,14 +97,6 @@
             </div>
           </div>
           <br />
-          <a target="_blank" href="Resume_NickPietrow.pdf">
-            <Fa fa="file-pdf" /> Resume
-          </a>
-          <br />
-          <a target="_blank" href="https://www.linkedin.com/in/nickpietrow/">
-            <Fa fa="linkedin" /> LinkedIn
-          </a>
-          <br /><br /><br />
           <div class="lebenslauf">
             <h3>Skills</h3>
             <ul class="buzzwords">
@@ -141,6 +132,14 @@
               <li><span>jQuery</span></li>
               <li><span>JBuilder</span></li>
             </ul>
+            <!-- <a target="_blank" href="Resume_NickPietrow.pdf">
+              <Fa fa="file-pdf" /> Resume
+            </a>
+            <br />
+            <a target="_blank" href="https://www.linkedin.com/in/nickpietrow/">
+              <Fa fa="linkedin" /> LinkedIn
+            </a>
+            <br /><br /><br /> -->
           </div>
         </section>
         <section id="contact" aria-labelledby="kontakt-heading">
@@ -339,6 +338,9 @@ export default {
 </script>
 
 <style lang="scss" scoped>
+.lebenslauf {
+  padding-left: 10px;
+}
 .buzzwords li {
   // display: flex;
   display: inline;
@@ -758,7 +760,7 @@ div > .main {
   box-sizing: border-box;
   line-height: 1.6;
   color: var(--txt);
-  padding: 1.5rem 1.5rem 80vh 1.5rem;
+  padding: 1.5rem 1.5rem 40vh 1.5rem;
   width: 100%;
   z-index: 100;
 }

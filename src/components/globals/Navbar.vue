@@ -7,12 +7,8 @@
           <!-- <button class="bar">
             <fa fas="bars"></fa>
           </button> -->
-          <a href="fb.com">
-            <img
-              class="logo"
-              src="svg/personal-logo.png"
-              alt="Kiwi standing on oval"
-            />
+          <a href="https://www.nickpietrow.com/#/">
+            <img class="logo" src="svg/logo.svg" alt="Kiwi standing on oval" />
           </a>
           <!-- <div class="buttons logo">
             <button>Wjatscheslaw Smesnoj</button>
@@ -27,12 +23,8 @@
           <!-- <button>Contact</button> -->
           <!-- <button>Impressum</button> -->
         </div>
-        <a class="logo-mobile" href="fb.com">
-          <img
-            class="logo"
-            src="svg/personal-logo.svg"
-            alt="Kiwi standing on oval"
-          />
+        <a class="logo-mobile" href="https://www.nickpietrow.com/#/">
+          <img class="logo" src="svg/logo.svg" alt="Kiwi standing on oval" />
         </a>
         <!-- <div class="lang">
             <div class="option">
