@@ -10,7 +10,7 @@
           <a href="fb.com">
             <img
               class="logo"
-              src="/svg/personal-logo.png"
+              src="svg/personal-logo.png"
               alt="Kiwi standing on oval"
             />
           </a>
@@ -30,7 +30,7 @@
         <a class="logo-mobile" href="fb.com">
           <img
             class="logo"
-            src="/svg/personal-logo.svg"
+            src="svg/personal-logo.svg"
             alt="Kiwi standing on oval"
           />
         </a>

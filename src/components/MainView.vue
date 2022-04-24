@@ -6,7 +6,7 @@
           <div class="xx" role="navigation" aria-labelledby="main-nav-heading">
             <div class="title"></div>
             <a class="listitem" href="#intro">Intro</a>
-            <a class="listitem" href="#Intro">About Me</a>
+            <a class="listitem" href="#about">About Me</a>
             <a class="listitem" href="#projects">Projects</a>
             <a class="listitem" href="#education">Education</a>
             <a class="listitem" href="#experience">Experience</a>
@@ -35,9 +35,9 @@
             <a href="#Intro">About Me <Fa fa="arrow-down" /></a>
           </div>
         </section>
-        <section id="Intro" aria-labelledby="intro-heading">
+        <section id="about" aria-labelledby="intro-heading">
           <h2 id="intro-heading">About Me</h2>
-          <img id="avatar" src="/images/avatar.jpeg" alt="avatar" />
+          <img id="avatar" src="images/avatar.jpeg" alt="avatar" />
           <span>
             I've always enjoyed tackling puzzles and challenging myself to think
             outside the box, so I consider myself lucky that software
@@ -221,7 +221,7 @@ export default {
             img: 'https://media.giphy.com/media/71fFzrI9JdXF6fdeGd/giphy.gif',
           },
           {
-            img: '/images/verve2.png',
+            img: 'images/verve2.png',
           },
           {
             img: 'https://media.giphy.com/media/2b8x8TifiH8fLJt0e2/giphy.gif',
@@ -242,7 +242,7 @@ export default {
             img: 'https://media.giphy.com/media/zHyQhXUpEMun1Mz6Pn/giphy.gif',
           },
           {
-            img: '/images/hoppers1.png',
+            img: 'images/hoppers1.png',
           },
           {
             img: 'https://media.giphy.com/media/hJai6xoHx2C7KHFKic/giphy.gif',
@@ -266,7 +266,7 @@ export default {
             img: 'https://media.giphy.com/media/d7DzvSBdBiYGQulmFi/giphy.gif',
           },
           {
-            img: '/images/app_pic.png',
+            img: 'images/app_pic.png',
           },
           {
             img: 'https://raw.githubusercontent.com/njpietrow/Filter.io/main/assets/landmarks.png',
@@ -512,7 +512,7 @@ export default {
     color: white;
   }
 }
-#Intro {
+#about {
   a {
     color: var(--accent-1);
     text-decoration: none;
