@@ -338,6 +338,9 @@ export default {
 </script>
 
 <style lang="scss" scoped>
+html {
+  scroll-behavior: smooth;
+}
 .lebenslauf {
   padding-left: 10px;
 }
