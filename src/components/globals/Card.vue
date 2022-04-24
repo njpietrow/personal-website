@@ -48,7 +48,7 @@ export default {
 
 <style lang="scss" scoped>
 .card:hover .overlay {
-  box-shadow: inset 0px -363px 292px -300px #2e2f3180;
+  box-shadow: inset 0px -363px 292px -300px #2e2f31e3;
   opacity: 1;
 }
 .card {
@@ -76,8 +76,9 @@ export default {
     position: absolute;
     transform: scale(1.02);
     border-radius: 1rem;
-    box-shadow: inset 0px 0px 0px 0px #2e2f31;
-    opacity: 0.9;
+    // box-shadow: inset 0px 0px 0px 0px #2e2f31;
+    box-shadow: inset 0px -363px 292px -300px #2e2f314f;
+    opacity: 0.7;
   }
 
   .info {
