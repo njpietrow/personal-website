@@ -7,9 +7,9 @@
           <!-- <button class="bar">
             <fa fas="bars"></fa>
           </button> -->
-          <a href="https://www.nickpietrow.com/#/">
-            <img class="logo" src="svg/logo.svg" alt="Kiwi standing on oval" />
-          </a>
+          <!-- <a href="https://www.nickpietrow.com/#/"> -->
+          <img class="logo" src="svg/logo.svg" alt="NP" />
+          <!-- </a> -->
           <!-- <div class="buttons logo">
             <button>Wjatscheslaw Smesnoj</button>
           </div> -->
@@ -23,9 +23,9 @@
           <!-- <button>Contact</button> -->
           <!-- <button>Impressum</button> -->
         </div>
-        <a class="logo-mobile" href="https://www.nickpietrow.com/#/">
-          <img class="logo" src="svg/logo.svg" alt="Kiwi standing on oval" />
-        </a>
+        <!-- <a class="logo-mobile" href="https://www.nickpietrow.com/#/"> -->
+        <img class="logo" src="svg/logo.svg" alt="NP" />
+        <!-- </a> -->
         <!-- <div class="lang">
             <div class="option">
               <input type="radio" name="Lang" id="ger-radio" />
