@@ -24,7 +24,7 @@
           <!-- <button>Impressum</button> -->
         </div>
         <!-- <a class="logo-mobile" href="https://www.nickpietrow.com/#/"> -->
-        <img class="logo" src="svg/logo.svg" alt="NP" />
+        <img class="logo-mobile" src="svg/logo.svg" alt="NP" />
         <!-- </a> -->
         <!-- <div class="lang">
             <div class="option">
