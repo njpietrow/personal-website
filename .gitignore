@@ -4,6 +4,7 @@ Gemfile.lock
 **/Gemfile.lock
 /dist
 dist
+node_modules
 
 **/log/*
 **/tmp/*
