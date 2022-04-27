@@ -2,8 +2,8 @@
 **/.DS_Store
 Gemfile.lock
 **/Gemfile.lock
-# /dist
-# dist
+/dist
+dist
 node_modules
 
 **/log/*

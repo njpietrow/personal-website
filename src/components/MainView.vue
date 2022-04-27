@@ -31,7 +31,7 @@
               interesting problems.
             </h1>
             <br />
-            <a href="#about">About Me <Fa fa="arrow-down" /></a>
+            <a href="#about">Read More <Fa fa="arrow-down" /></a>
           </div>
         </section>
         <section id="about" aria-labelledby="intro-heading">
@@ -284,6 +284,17 @@ export default {
     this.scrollcalc();
     let anchorlinks = document.querySelectorAll('a[href^="#"]');
 
+    // document.querySelectorAll('a[href^="#"]').forEach((anchor) => {
+    //   anchor.addEventListener('click', function (e) {
+    //     e.preventDefault();
+
+    //     document.querySelector(this.getAttribute('href')).scrollIntoView({
+    //       behavior: 'smooth',
+    //       block: 'start',
+    //     });
+    //   });
+    // });
+
     for (let item of anchorlinks) {
       item.addEventListener('click', (e) => {
         let hashval = item.getAttribute('href');
@@ -292,7 +303,7 @@ export default {
           behavior: 'smooth',
           block: 'start',
         });
-        history.pushState(null, null, hashval);
+        // history.pushState(null, null, hashval);
         e.preventDefault();
       });
     }
