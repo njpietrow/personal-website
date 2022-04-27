@@ -303,7 +303,7 @@ export default {
           behavior: 'smooth',
           block: 'start',
         });
-        // history.pushState(null, null, hashval);
+        history.pushState(null, null, hashval);
         e.preventDefault();
       });
     }
@@ -410,8 +410,13 @@ html {
 
 #intro {
   .txt {
+    // height: 45vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
     a {
       display: none;
+      // margin-top: 20vh;
       text-decoration: none;
       color: white;
     }
