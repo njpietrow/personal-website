@@ -184,7 +184,7 @@ export default {
   data: () => ({
     experience: [
       {
-        datum: 'July 2022 – Present',
+        datum: 'June 2022 – Present',
         extra: 'WorkRamp',
         titel: 'Software Engineer',
         ort: 'Software Development & Testing',
