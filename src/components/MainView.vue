@@ -8,8 +8,8 @@
             <a class="listitem" href="#intro">Intro</a>
             <a class="listitem" href="#about">About Me</a>
             <a class="listitem" href="#projects">Projects</a>
-            <a class="listitem" href="#education">Education</a>
             <a class="listitem" href="#experience">Experience</a>
+            <a class="listitem" href="#education">Education</a>
             <a class="listitem" href="#contact">Contact</a>
             <br />
             <div class="contact">
@@ -24,26 +24,31 @@
       <div class="main">
         <section id="intro">
           <div class="txt">
-            <h1>
-              Hi, I'm Nick Pietrow.
+            <h1>Hi, I'm Nick Pietrow.</h1>
+            <span>
+              I'm a software engineer looking for my next role 🧑 💼.
               <br />
-              I'm a consultant turned software engineer who loves solving
-              interesting problems.
-            </h1>
+              I have experience creating complex features and improving 
+              efficiency in large web applications 🏗️. I last worked at
+              WorkRamp, a series C startup, where I was developing a modern Learning 
+              Management System. Before that, I worked as a consultant
+              specializing in tax automation. I'm also a proud USC alum ✌️ with a degree in Business Administration
+              and Computer Science.
+            </span>
             <br />
             <a href="#about">Read More <Fa fa="arrow-down" /></a>
           </div>
         </section>
         <section id="about" aria-labelledby="intro-heading">
           <h2 id="intro-heading">About Me</h2>
-          <img id="avatar" src="images/avatar.jpeg" alt="avatar" />
+          <img id="avatar" src="images/avatar2.jpeg" alt="avatar" />
           <span>
             I've always enjoyed tackling puzzles and challenging myself to think
             outside the box, so I consider myself lucky that software
             engineering as a career has consistently pushed me to learn new
-            skills, meet amazing people, and bring ideas to life. <br /><br />
-            While not coding, you can find me either buried in a game of chess,
-            playing basketball in my local rec league, or surfing in Malibu.
+            skills, meet amazing people, and contribute to amazing products. <br /><br />
+            While not coding, you can find me either on chess.com,
+            playing basketball in a VOLO league, or surfing in San Diego.
           </span>
         </section>
         <section id="projects" aria-labelledby="projekte-heading">
@@ -58,36 +63,11 @@
             </div>
           </div>
         </section>
-        <section id="education">
-          <h2 id="lebenslauf-heading">Education</h2>
-          <ul>
-            <li>
-              <img src="images/aa-logo.png" alt="" />
-              <div class="stack">
-                <a target="_blank" href="https://www.appacademy.io/"
-                  >App Academy</a
-                >
-                <span>Full Stack Web Development (2022)</span>
-              </div>
-            </li>
-            <li>
-              <img src="images/usc-logo.jpeg" alt="" />
-              <div class="stack">
-                <a target="_blank" href="https://about.usc.edu/"
-                  >University of Southern California</a
-                >
-                <span
-                  >BS Business Administration, Minor Computer Science (2019)
-                </span>
-              </div>
-            </li>
-            <li></li>
-          </ul>
-        </section>
+      
         <section id="experience" aria-labelledby="lebenslauf-heading">
           <h2 id="lebenslauf-heading">Experience and Skills</h2>
           <div class="lebenslauf">
-            <h3>Work Experience</h3>
+            <h3>Experience</h3>
             <div class="cont" v-for="i in experience" :key="i.ort">
               <span>{{ i.datum }}</span>
               <span>{{ i.extra }}</span>
@@ -142,9 +122,34 @@
             <br /><br /><br /> -->
           </div>
         </section>
+        <section id="education">
+          <h2 id="lebenslauf-heading">Education</h2>
+          <ul>
+            <li>
+              <img src="images/aa-logo.png" alt="" />
+              <div class="stack">
+                <a target="_blank" href="https://www.appacademy.io/"
+                  >App Academy</a
+                >
+                <span>Full Stack Web Development (2022)</span>
+              </div>
+            </li>
+            <li>
+              <img src="images/usc-logo.jpeg" alt="" />
+              <div class="stack">
+                <a target="_blank" href="https://about.usc.edu/"
+                  >University of Southern California</a
+                >
+                <span
+                  >BS Business Administration, Minor Computer Science (2019)
+                </span>
+              </div>
+            </li>
+            <li></li>
+          </ul>
+        </section>
         <section id="contact" aria-labelledby="kontakt-heading">
           <h2 id="kontakt-heading">Contact</h2>
-          <br />
           <Fa fa="envelope-o" /> njpietrow@gmail.com <br />
           <Fa fa="map-marker" /> Los Angeles, CA <br />
           <br />
@@ -183,8 +188,15 @@ export default {
   },
   data: () => ({
     experience: [
+        {
+        datum: 'June 2023 – Present',
+        extra: 'On Tap Consulting',
+        titel: 'Business Analyst',
+        ort: 'Business Strategy, Data Analysis',
+        txt: '',
+      },
       {
-        datum: 'June 2022 – Present',
+        datum: 'June 2022 – March 2023',
         extra: 'WorkRamp',
         titel: 'Software Engineer',
         ort: 'Software Development & Testing',
@@ -203,21 +215,7 @@ export default {
         titel: 'Accounting Intern',
         ort: 'International Accounting, Tax Automation',
         txt: '',
-      },
-      {
-        datum: 'May 2017 – Aug 2017',
-        extra: 'Sands Investment Group',
-        titel: 'Summer Analyst',
-        ort: 'Real Estate Analysis, Web Scraping',
-        txt: '',
-      },
-      {
-        datum: 'May 2016 – Jun 2016',
-        extra: 'Popping Commons, Inc.',
-        titel: 'Product Analyst',
-        ort: 'User Experience, Market Research',
-        txt: '',
-      },
+      }
     ],
     projects: [
       {
