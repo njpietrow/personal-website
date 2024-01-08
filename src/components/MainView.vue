@@ -211,7 +211,7 @@ export default {
       },
       {
         datum: 'May 2018 – Aug 2018',
-        extra: 'RingCentral, Inc.',
+        extra: 'RingCentral',
         titel: 'Accounting Intern',
         ort: 'International Accounting, Tax Automation',
         txt: '',
